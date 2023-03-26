@@ -1,0 +1,167 @@
+latexml (LaTeXML version 0.8.6) processing input.tex
+(Digesting TeX input...
+(Loading /usr/share/perl5/LaTeXML/Package/TeX.pool.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/eTeX.pool.ltxml... 0.02 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/pdfTeX.pool.ltxml... 0.02 sec) 0.24 sec)
+(Processing content /home/ritesh/leaderboard/input.tex...
+(Loading /usr/share/perl5/LaTeXML/Package/LaTeX.pool.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/textcomp.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu... 0.04 sec) 0.30 sec) 0.60 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/article.cls.ltxml... 0.03 sec)
+Warning:missing_file:emnlp2021 Can't find binding for package emnlp2021
+	at input.tex; line 5 col 11 - line 5 col 11
+	Anticipate undefined macros or environments
+	search paths are /home/ritesh/leaderboard
+	In Core::Definition::Constructor[\usepac... /usr/share/perl5/LaTeXML/Package/LaTeX.pool.ltxml; line 806
+(Loading /usr/share/perl5/LaTeXML/Package/times.sty.ltxml... 0.00 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/latexsym.sty.ltxml... 0.00 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/fontenc.sty.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/t1enc.def.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu... 0.13 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/t1.fontmap.ltxml... 0.00 sec) 0.26 sec) 0.27 sec) 0.28 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/inputenc.sty.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/utf8.def.ltxml... 0.01 sec) 0.02 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/microtype.sty.ltxml... 0.01 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/enumitem.sty.ltxml... 0.02 sec)
+Warning:missing_file:tcolorbox Can't find binding for package tcolorbox
+	at input.tex; line 12 col 11 - line 12 col 11
+	Anticipate undefined macros or environments
+	In Core::Definition::Constructor[\usepac... /usr/share/perl5/LaTeXML/Package/LaTeX.pool.ltxml; line 806
+(Loading /usr/share/perl5/LaTeXML/Package/color.sty.ltxml... 0.06 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/soul.sty.ltxml... 0.02 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/multirow.sty.ltxml... 0.00 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/flushend.sty.ltxml... 0.00 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/amssymb.sty.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/amsfonts.sty.ltxml... 0.01 sec) 0.05 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/pifont.sty.ltxml... 0.02 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/todonotes.sty.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/ifthen.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty... 0.05 sec) 0.06 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/xkeyval.sty.ltxml... 0.03 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/xcolor.sty.ltxml... 0.09 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/tikz.sty.ltxml...
+Warning:missing_file:tikz Can't find package tikz
+	at tikz.sty.ltxml; line 24
+	Anticipate undefined macros or environments
+	In Core::Gullet[@0x55d1546389a8] /usr/share/perl5/LaTeXML/Package/tikz.sty.ltxml; line 24
+ 0.02 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/calc.sty.ltxml... 0.01 sec) 0.26 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/url.sty.ltxml... 0.01 sec)
+(Loading /usr/share/perl5/LaTeXML/Package/colortbl.sty.ltxml...
+(Loading /usr/share/perl5/LaTeXML/Package/array.sty.ltxml... 0.01 sec) 0.04 sec)
+Error:undefined:\And The token T_CS[\And] is not defined.
+	at input.tex; line 40 col 0 - line 40 col 39
+	Defining it now as <ltx:ERROR/>
+	Next token is T_LETTER[M] ( == T_LETTER[M]) more: ayank Singh \\
+IIT Gandhinagar\\ Gandhinagar, Gujarat, India \\
+\texttt{singh.mayank@iitgn.ac.in} \\
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 40 col 0 to line 40 col 39
+	 <= Core::Stomach[@0x55d1546382e8] <= Core::Definition::Constructor[\@perso... <= Core::Stomach[@0x55d1546382e8] <= ...
+Error:undefined:\resizebox The token T_CS[\resizebox] is not defined.
+	at input.tex; line 63 col 10 - line 63 col 10
+	Defining it now as <ltx:ERROR/>
+	Next token is T_BEGIN[{] ( == T_BEGIN[{])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 63 col 11 to line 63 col 11
+	 <= Core::Stomach[@0x55d1546382e8] <= Core::Definition::Constructor[\begin{... <= Core::Stomach[@0x55d1546382e8] <= ...
+Warning:expected:<number> Missing number (Dimension), treated as zero.
+	at input.tex; line 63 col 18 - line 63 col 18
+	while processing \hsize
+	Next token is T_END[}] ( == T_END[}])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 63 col 18 to line 63 col 18
+Error:undefined:\newcite The token T_CS[\newcite] is not defined.
+	at input.tex; line 66 col 67 - line 66 col 67
+	Defining it now as <ltx:ERROR/>
+	Next token is T_BEGIN[{] ( == T_BEGIN[{])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 66 col 68 to line 66 col 68
+	 <= Core::Definition::Constructor[\@start... <= Core::Stomach[@0x55d1546382e8] <= Core::Definition::Constructor[\@@tabu... <= ...
+(Loading /usr/share/perl5/LaTeXML/Package/pzd.fontmap.ltxml... 0.00 sec)
+Error:undefined:\KV@enumitem@noitemsep@default The token T_CS[\KV@enumitem@noitemsep@default] is not defined.
+	at input.tex; line 109 col 0 - line 109 col 36
+	Defining it now as <ltx:ERROR/>
+	Next token is T_CS[\def] ( == Core::Definition::Primitive[\def SkipSpaces Token UntilBrace DefPlain]) more: \XKV@prefix{}\def\XKV@tfam{}\def\XKV@header{}\def\XKV@tkey{}\def\XKV@fams{}\def\XKV@na{}
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 109 col 0 to line 109 col 36
+	 <= Core::Stomach[@0x55d1546382e8] <= Core::Definition::Constructor[\begin{... <= Core::Stomach[@0x55d1546382e8] <= ...
+Error:undefined:\includegraphics The token T_CS[\includegraphics] is not defined.
+	at input.tex; line 118 col 20 - line 118 col 20
+	Defining it now as <ltx:ERROR/>
+	Next token is T_OTHER[[] ( == T_OTHER[[])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 118 col 21 to line 118 col 21
+	 <= Core::Stomach[@0x55d1546382e8] <= Core::Definition::Constructor[\begin{... <= Core::Stomach[@0x55d1546382e8] <= ...
+Warning:expected:<number> Missing number (Dimension), treated as zero.
+	at input.tex; line 118 col 41 - line 118 col 41
+	while processing \linewidth
+	Next token is T_OTHER[]] ( == T_OTHER[]])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 118 col 41 to line 118 col 41
+Warning:expected:<number> Missing number (Dimension), treated as zero.
+	at input.tex; line 126 col 18 - line 126 col 18
+	while processing \hsize
+	Next token is T_END[}] ( == T_END[}])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 126 col 18 to line 126 col 18
+Warning:expected:<number> Missing number (Dimension), treated as zero.
+	at input.tex; line 174 col 41 - line 174 col 41
+	while processing \linewidth
+	Next token is T_OTHER[]] ( == T_OTHER[]])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 174 col 41 to line 174 col 41
+Warning:expected:<number> Missing number (Dimension), treated as zero.
+	at input.tex; line 181 col 41 - line 181 col 41
+	while processing \linewidth
+	Next token is T_OTHER[]] ( == T_OTHER[]])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 181 col 41 to line 181 col 41
+Error:undefined:\citet The token T_CS[\citet] is not defined.
+	at input.tex; line 189 col 295 - line 189 col 295
+	Defining it now as <ltx:ERROR/>
+	Next token is T_BEGIN[{] ( == T_BEGIN[{])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 189 col 296 to line 189 col 296
+	 <= Core::Stomach[@0x55d1546382e8] <= ...
+Warning:expected:<number> Missing number (Dimension), treated as zero.
+	at input.tex; line 207 col 18 - line 207 col 18
+	while processing \hsize
+	Next token is T_END[}] ( == T_END[}])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 207 col 18 to line 207 col 18
+Warning:expected:<number> Missing number (Dimension), treated as zero.
+	at input.tex; line 222 col 18 - line 222 col 18
+	while processing \hsize
+	Next token is T_END[}] ( == T_END[}])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 222 col 18 to line 222 col 18
+Warning:expected:<number> Missing number (Dimension), treated as zero.
+	at input.tex; line 237 col 41 - line 237 col 41
+	while processing \linewidth
+	Next token is T_OTHER[]] ( == T_OTHER[]])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 237 col 41 to line 237 col 41
+Warning:expected:<number> Missing number (Dimension), treated as zero.
+	at input.tex; line 245 col 41 - line 245 col 41
+	while processing \linewidth
+	Next token is T_OTHER[]] ( == T_OTHER[]])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 245 col 41 to line 245 col 41
+Error:unexpected:_ Script _ can only appear in math mode
+	at input.tex; line 245 col 47 - line 245 col 47
+	In Core::Definition::Primitive[Subscript] /usr/share/perl5/LaTeXML/Package/TeX.pool.ltxml; line 4061
+	 <= Core::Stomach[@0x55d1546382e8] <= Core::Definition::Primitive[Begin] <= Core::Stomach[@0x55d1546382e8] <= ...
+Warning:expected:<number> Missing number (Dimension), treated as zero.
+	at input.tex; line 252 col 41 - line 252 col 41
+	while processing \linewidth
+	Next token is T_OTHER[]] ( == T_OTHER[]])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 252 col 41 to line 252 col 41
+Warning:expected:<number> Missing number (Dimension), treated as zero.
+	at input.tex; line 310 col 18 - line 310 col 18
+	while processing \hsize
+	Next token is T_END[}] ( == T_END[}])
+	In Core::Gullet[@0x55d1546389a8] /home/ritesh/leaderboard/input.tex; from line 310 col 18 to line 310 col 18
+Info:unexpected:acl_natbib Unknown bibstyle 'acl_natbib', it will be ignored
+	at input.tex; line 358 col 0 - line 358 col 30
+ 6.24 sec) 6.56 sec)
+(Building...
+(Loading compiled schema /usr/share/perl5/LaTeXML/resources/RelaxNG/LaTeXML.model... 0.03 sec)
+Info:unexpected:rowspan Rowspan 3 in cell(1,0) covers non-empty cells; truncating.to 2
+	at input.tex; line 311 col 0 - line 311 col 29
+ 2.84 sec)
+(Rewriting... 0.01 sec)
+(Math Parsing 1 formulae ...... 0.03 sec)
+Math parsing succeeded:
+   ltx:XMath: 1/1
+Symbols assumed as simple identifiers (with # of occurences):
+   'd{italic}' (1), 'i{italic}' (1), 'm{italic}' (1)
+Set MATHPARSER_SPECULATE to speculate on possible notations.
+(Finalizing... 0.08 sec)
+Conversion complete 14 warnings; 7 errors; 6 undefined macros[\citet, \KV@enumitem@noitemsep@default, \resizebox, \And, \newcite, \includegraphics]; 3 missing files[tikz.sty, emnlp2021.sty, tcolorbox.sty] (See /home/ritesh/leaderboard/input.latexml.log) (reqd. 9.86s)
