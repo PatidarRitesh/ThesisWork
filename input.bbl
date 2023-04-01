@@ -1,0 +1,283 @@
+\begin{thebibliography}{35}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Artetxe et~al.(2018)Artetxe, Labaka, and Agirre}]{artetxe2018acl}
+Mikel Artetxe, Gorka Labaka, and Eneko Agirre. 2018.
+\newblock A robust self-learning method for fully unsupervised cross-lingual
+  mappings of word embeddings.
+\newblock In \emph{Proceedings of the 56th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 789--798.
+
+\bibitem[{Banerjee et~al.(2018)Banerjee, Moghe, Arora, and
+  Khapra}]{banerjee2018dataset}
+Suman Banerjee, Nikita Moghe, Siddhartha Arora, and Mitesh~M Khapra. 2018.
+\newblock A dataset for building code-mixed goal oriented conversation systems.
+\newblock In \emph{Proceedings of the 27th International Conference on
+  Computational Linguistics}, pages 3766--3780.
+
+\bibitem[{Bojanowski et~al.(2017)Bojanowski, Grave, Joulin, and
+  Mikolov}]{bojanowski2017enriching}
+Piotr Bojanowski, Edouard Grave, Armand Joulin, and Tomas Mikolov. 2017.
+\newblock Enriching word vectors with subword information.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  5:135--146.
+
+\bibitem[{Campos et~al.(2020)Campos, Mangaravite, Pasquali, Jorge, Nunes, and
+  Jatowt}]{campos2020yake}
+Ricardo Campos, V{\'\i}tor Mangaravite, Arian Pasquali, Al{\'\i}pio Jorge,
+  C{\'e}lia Nunes, and Adam Jatowt. 2020.
+\newblock Yake! keyword extraction from single documents using multiple local
+  features.
+\newblock \emph{Information Sciences}, 509:257--289.
+
+\bibitem[{Doddington(2002)}]{doddington2002automatic}
+George Doddington. 2002.
+\newblock Automatic evaluation of machine translation quality using n-gram
+  co-occurrence statistics.
+\newblock In \emph{Proceedings of the second international conference on Human
+  Language Technology Research}, pages 138--145.
+
+\bibitem[{Gao et~al.(2019)Gao, Feng, Liu, Hou, Pan, and Ma}]{Gao_Bert_GAN_2019}
+Yingying Gao, Junlan Feng, Ying Liu, Leijing Hou, Xin Pan, and Yong Ma. 2019.
+\newblock \href
+  {https://www.isca-speech.org/archive/Interspeech_2019/pdfs/2501.pdf}
+  {Code-switching sentence generation by bert and generative adversarial
+  networks}.
+\newblock In \emph{Proceedings of the 20th Annual Conference of the
+  International Speech Communication Association, INTERSPEECH 2019}, pages
+  3525--3529.
+
+\bibitem[{Gupta et~al.(2020)Gupta, Ekbal, and
+  Bhattacharyya}]{gupta-etal-2020-semi}
+Deepak Gupta, Asif Ekbal, and Pushpak Bhattacharyya. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.findings-emnlp.206} {A
+  semi-supervised approach to generate the code-mixed text using pre-trained
+  encoder and transfer learning}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2020}, pages 2267--2280, Online. Association for Computational
+  Linguistics.
+
+\bibitem[{Jain et~al.(2021)Jain, Prabhu, Vatsal, Ramena, and
+  Purre}]{dhruval_GCM_dependency_2021}
+Dhruval Jain, Arun~D Prabhu, Shubham Vatsal, Gopi Ramena, and Naresh Purre.
+  2021.
+\newblock \href {https://doi.org/10.1109/ICSC50631.2021.00030} {Codeswitched
+  sentence creation using dependency parsing}.
+\newblock In \emph{2021 IEEE 15th International Conference on Semantic
+  Computing (ICSC)}, pages 124--129, Los Alamitos, CA, USA. IEEE Computer
+  Society.
+
+\bibitem[{Joshi et~al.(2016)Joshi, Prabhu, Shrivastava, and
+  Varma}]{joshi2016towards}
+Aditya Joshi, Ameya Prabhu, Manish Shrivastava, and Vasudeva Varma. 2016.
+\newblock Towards sub-word level compositions for sentiment analysis of
+  hindi-english code mixed text.
+\newblock In \emph{Proceedings of COLING 2016, the 26th International
+  Conference on Computational Linguistics: Technical Papers}, pages 2482--2491.
+
+\bibitem[{Joshi(1982)}]{joshi1982processing}
+Aravind Joshi. 1982.
+\newblock Processing of sentences with intra-sentential code-switching.
+\newblock In \emph{Coling 1982: Proceedings of the Ninth International
+  Conference on Computational Linguistics}.
+
+\bibitem[{Kunchukuttan et~al.(2018)Kunchukuttan, Mehta, and
+  Bhattacharyya}]{kunchukuttan2018iit}
+Anoop Kunchukuttan, Pratik Mehta, and Pushpak Bhattacharyya. 2018.
+\newblock The iit bombay english-hindi parallel corpus.
+\newblock In \emph{Proceedings of the Eleventh International Conference on
+  Language Resources and Evaluation (LREC 2018)}.
+
+\bibitem[{Lee et~al.(2019)Lee, Yue, and Li}]{Lee2019}
+Grandee Lee, Xianghu Yue, and Haizhou Li. 2019.
+\newblock \href {https://doi.org/10.21437/Interspeech.2019-1382}
+  {{Linguistically Motivated Parallel Data Augmentation for Code-Switch
+  Language Modeling}}.
+\newblock In \emph{Proc. Interspeech 2019}, pages 3730--3734.
+
+\bibitem[{Levenshtein(1966)}]{levenshtein1966binary}
+Vladimir~I Levenshtein. 1966.
+\newblock Binary codes capable of correcting deletions, insertions, and
+  reversals.
+\newblock In \emph{Soviet physics doklady}, volume~10, pages 707--710.
+
+\bibitem[{Mishra(2019)}]{Ritwik2019}
+Ritwik Mishra. 2019.
+\newblock devanagari-to-roman-script-transliteration.
+\newblock
+  \url{https://github.com/ritwikmishra/devanagari-to-roman-script-transliteration}.
+
+\bibitem[{Och and Ney(2003)}]{och03:asc}
+Franz~Josef Och and Hermann Ney. 2003.
+\newblock A systematic comparison of various statistical alignment models.
+\newblock \emph{Computational Linguistics}, 29(1):19--51.
+
+\bibitem[{Papineni et~al.(2002)Papineni, Roukos, Ward, and
+  Zhu}]{papineni2002bleu}
+Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu. 2002.
+\newblock Bleu: a method for automatic evaluation of machine translation.
+\newblock In \emph{Proceedings of the 40th annual meeting on association for
+  computational linguistics}, pages 311--318. Association for Computational
+  Linguistics.
+
+\bibitem[{Patro et~al.(2017)Patro, Samanta, Singh, Basu, Mukherjee, Choudhury,
+  and Mukherjee}]{patro-etal-2017-english}
+Jasabanta Patro, Bidisha Samanta, Saurabh Singh, Abhipsa Basu, Prithwish
+  Mukherjee, Monojit Choudhury, and Animesh Mukherjee. 2017.
+\newblock \href {https://doi.org/10.18653/v1/D17-1240} {All that is {E}nglish
+  may be {H}indi: Enhancing language identification through automatic ranking
+  of the likeliness of word borrowing in social media}.
+\newblock In \emph{Proceedings of the 2017 Conference on Empirical Methods in
+  Natural Language Processing}, pages 2264--2274, Copenhagen, Denmark.
+  Association for Computational Linguistics.
+
+\bibitem[{Patwa et~al.(2020)Patwa, Aguilar, Kar, Pandey, Srinivas, Gamb{\"a}ck,
+  Chakraborty, Solorio, and Das}]{patwa2020semeval}
+Parth Patwa, Gustavo Aguilar, Sudipta Kar, Suraj Pandey, PYKL Srinivas,
+  Bj{\"o}rn Gamb{\"a}ck, Tanmoy Chakraborty, Thamar Solorio, and Amitava Das.
+  2020.
+\newblock Semeval-2020 task 9: Overview of sentiment analysis of code-mixed
+  tweets.
+\newblock In \emph{Proceedings of the Fourteenth Workshop on Semantic
+  Evaluation}, pages 774--790.
+
+\bibitem[{Pratapa et~al.(2018)Pratapa, Bhat, Choudhury, Sitaram, Dandapat, and
+  Bali}]{pratapa-etal-2018-language}
+Adithya Pratapa, Gayatri Bhat, Monojit Choudhury, Sunayana Sitaram, Sandipan
+  Dandapat, and Kalika Bali. 2018.
+\newblock \href {https://doi.org/10.18653/v1/P18-1143} {Language modeling for
+  code-mixing: The role of linguistic theory based synthetic data}.
+\newblock In \emph{Proceedings of the 56th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 1543--1553,
+  Melbourne, Australia. Association for Computational Linguistics.
+
+\bibitem[{Ramanarayanan et~al.(2019)Ramanarayanan, Pugh, Qian, and
+  Suendermann-Oeft}]{ramanarayanan2019automatic}
+Vikram Ramanarayanan, Robert Pugh, Yao Qian, and David Suendermann-Oeft. 2019.
+\newblock Automatic turn-level language identification for code-switched
+  spanish--english dialog.
+\newblock In \emph{9th International Workshop on Spoken Dialogue System
+  Technology}, pages 51--61. Springer.
+
+\bibitem[{Rijhwani et~al.(2017)Rijhwani, Sequiera, Choudhury, Bali, and
+  Maddila}]{rijhwani-etal-2017-estimating}
+Shruti Rijhwani, Royal Sequiera, Monojit Choudhury, Kalika Bali, and
+  Chandra~Shekhar Maddila. 2017.
+\newblock \href {https://doi.org/10.18653/v1/P17-1180} {Estimating
+  code-switching on {T}witter with a novel generalized word-level language
+  detection technique}.
+\newblock In \emph{Proceedings of the 55th Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers)}, pages 1971--1982,
+  Vancouver, Canada. Association for Computational Linguistics.
+
+\bibitem[{Shekhar et~al.(2020)Shekhar, Sharma, and Beg}]{shekhar2020language}
+Shashi Shekhar, Dilip~Kumar Sharma, and MM~Sufyan Beg. 2020.
+\newblock Language identification framework in code-mixed social media text
+  based on quantum lstm—the word belongs to which language?
+\newblock \emph{Modern Physics Letters B}, 34(06):2050086.
+
+\bibitem[{Singh et~al.(2018{\natexlab{a}})Singh, Sen, and
+  Kumaraguru}]{singh2018language}
+Kushagra Singh, Indira Sen, and Ponnurangam Kumaraguru. 2018{\natexlab{a}}.
+\newblock Language identification and named entity recognition in hinglish code
+  mixed tweets.
+\newblock In \emph{Proceedings of ACL 2018, Student Research Workshop}, pages
+  52--58.
+
+\bibitem[{Singh et~al.(2018{\natexlab{b}})Singh, Sen, and
+  Kumaraguru}]{singh2018twitter}
+Kushagra Singh, Indira Sen, and Ponnurangam Kumaraguru. 2018{\natexlab{b}}.
+\newblock A twitter corpus for hindi-english code mixed pos tagging.
+\newblock In \emph{Proceedings of the Sixth International Workshop on Natural
+  Language Processing for Social Media}, pages 12--17.
+
+\bibitem[{Snover et~al.(2006)Snover, Dorr, Schwartz, Micciulla, and
+  Makhoul}]{snover2006study}
+Matthew Snover, Bonnie Dorr, Richard Schwartz, Linnea Micciulla, and John
+  Makhoul. 2006.
+\newblock A study of translation edit rate with targeted human annotation.
+\newblock In \emph{Proceedings of association for machine translation in the
+  Americas}, volume 200. Cambridge, MA.
+
+\bibitem[{Solorio et~al.(2014)Solorio, Blair, Maharjan, Bethard, Diab, Ghoneim,
+  Hawwari, AlGhamdi, Hirschberg, Chang, and Fung}]{solorio-etal-2014-overview}
+Thamar Solorio, Elizabeth Blair, Suraj Maharjan, Steven Bethard, Mona Diab,
+  Mahmoud Ghoneim, Abdelati Hawwari, Fahad AlGhamdi, Julia Hirschberg, Alison
+  Chang, and Pascale Fung. 2014.
+\newblock \href {https://doi.org/10.3115/v1/W14-3907} {Overview for the first
+  shared task on language identification in code-switched data}.
+\newblock In \emph{Proceedings of the First Workshop on Computational
+  Approaches to Code Switching}, pages 62--72, Doha, Qatar. Association for
+  Computational Linguistics.
+
+\bibitem[{Srivastava and Singh(2020)}]{srivastava2020phinc}
+Vivek Srivastava and Mayank Singh. 2020.
+\newblock Phinc: a parallel hinglish social media code-mixed corpus for machine
+  translation.
+\newblock \emph{arXiv preprint arXiv:2004.09447}.
+
+\bibitem[{Srivastava and Singh(2021)}]{srivastava2021challenges}
+Vivek Srivastava and Mayank Singh. 2021.
+\newblock Challenges and limitations with the metrics measuring the complexity
+  of code-mixed text.
+\newblock In \emph{Proceedings of the Fifth Workshop on Computational
+  Approaches to Linguistic Code-Switching}, pages 6--14.
+
+\bibitem[{Swami et~al.(2018)Swami, Khandelwal, Singh, Akhtar, and
+  Shrivastava}]{swami2018corpus}
+Sahil Swami, Ankush Khandelwal, Vinay Singh, Syed~Sarfaraz Akhtar, and Manish
+  Shrivastava. 2018.
+\newblock A corpus of english-hindi code-mixed tweets for sarcasm detection.
+\newblock \emph{arXiv preprint arXiv:1805.11869}.
+
+\bibitem[{Utsav et~al.(2020)Utsav, Kabaria, Vajpeyi, Mina, and
+  Srivastava}]{10.1145/3371158.3371226}
+Jethva Utsav, Dhaiwat Kabaria, Ribhu Vajpeyi, Mohit Mina, and Vivek Srivastava.
+  2020.
+\newblock \href {https://doi.org/10.1145/3371158.3371226} {Stance detection in
+  hindi-english code-mixed data}.
+\newblock In \emph{Proceedings of the 7th ACM IKDD CoDS and 25th COMAD}, CoDS
+  COMAD 2020, page 359–360, New York, NY, USA. Association for Computing
+  Machinery.
+
+\bibitem[{Vyas et~al.(2014)Vyas, Gella, Sharma, Bali, and
+  Choudhury}]{vyas2014pos}
+Yogarshi Vyas, Spandana Gella, Jatin Sharma, Kalika Bali, and Monojit
+  Choudhury. 2014.
+\newblock Pos tagging of english-hindi code-mixed social media content.
+\newblock In \emph{Proceedings of the 2014 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP)}, pages 974--979.
+
+\bibitem[{Winata et~al.(2018)Winata, {Madotto}, {Wu}, and
+  {Fung}}]{2018arXiv181010254I}
+Genta~Indra Winata, Andrea {Madotto}, Chien-Sheng {Wu}, and Pascale {Fung}.
+  2018.
+\newblock \href {http://arxiv.org/abs/1810.10254} {{Learn to Code-Switch: Data
+  Augmentation using Copy Mechanism on Language Modeling}}.
+\newblock \emph{arXiv e-prints}.
+
+\bibitem[{Winata et~al.(2019)Winata, Madotto, Wu, and
+  Fung}]{winata-etal-2019-code}
+Genta~Indra Winata, Andrea Madotto, Chien-Sheng Wu, and Pascale Fung. 2019.
+\newblock \href {https://doi.org/10.18653/v1/K19-1026} {Code-switched language
+  models using neural based synthetic data from parallel sentences}.
+\newblock In \emph{Proceedings of the 23rd Conference on Computational Natural
+  Language Learning (CoNLL)}, pages 271--280, Hong Kong, China. Association for
+  Computational Linguistics.
+
+\bibitem[{Zhang et~al.(2019{\natexlab{a}})Zhang, Zhang, and
+  Fu}]{zhang2019cross}
+Meishan Zhang, Yue Zhang, and Guohong Fu. 2019{\natexlab{a}}.
+\newblock Cross-lingual dependency parsing using code-mixed treebank.
+\newblock In \emph{Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing and the 9th International Joint Conference on
+  Natural Language Processing (EMNLP-IJCNLP)}, pages 996--1005.
+
+\bibitem[{Zhang et~al.(2019{\natexlab{b}})Zhang, Kishore, Wu, Weinberger, and
+  Artzi}]{zhang2019bertscore}
+Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian~Q Weinberger, and Yoav Artzi.
+  2019{\natexlab{b}}.
+\newblock Bertscore: Evaluating text generation with bert.
+\newblock \emph{arXiv preprint arXiv:1904.09675}.
+
+\end{thebibliography}
