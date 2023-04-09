@@ -75,9 +75,9 @@ def fetch_title(fields):
 def fetch_journal(fields):
     # fields = fields.split('{')[1].split('}')[0]
     # fields = [field.strip() for field in fields.split('\n')]
-    # journal = " ".join(fields).split('(')[0]
-    # journal_elem = ET.SubElement(entry_elem, 'journal')
-    # journal_elem.text = journal
+    journal = "".join(fields).split('(')[0]
+    journal_elem = ET.SubElement(entry_elem, 'Place')
+    journal_elem.text = journal
     # print(f'journal: {journal}')
     return fields.strip()
 
@@ -106,7 +106,7 @@ def fetch_pages(fields):
     pages_elem_end = ET.SubElement(entry_elem, 'pages_end')
     pages_elem_start.text = page_range[0].strip()
     pages_elem_end.text = page_range[1].strip()
-    print(f'Pages from {page_range[0]} to {page_range[1]}')
+    print(f'Pages  {page_range[0]} - {page_range[1]}')
 
 # def fetch_doi(fields):
 #     doi = fields[8].strip()
@@ -223,6 +223,8 @@ for entry in entries[1:]:  # ignore the first empty entry
     #     field_elem = ET.SubElement(entry_elem, key)
     #     field_elem.text = value
 
-# write the XML document to a file
+# write the Xml document in proper indentation
+
 tree = ET.ElementTree(root)
+ET.indent(tree, space="\t", level=0)
 tree.write('output_bbl.xml', encoding='utf-8', xml_declaration=True)
