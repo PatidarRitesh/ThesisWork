@@ -4,118 +4,6 @@
 import xml.etree.ElementTree as ET
 import re
 
-# def init_dict():
-
-#     information = {
-#         'title': '',
-#         'book': '',
-#         'publisher': '',
-#         'Pages': '',
-#         'year': '',
-#         'ID': '',
-#         'volume': '',
-#         'author': list()
-#     }
-#     return information
-# root = ET.Element("bibliography")
-
-# def get_information(Matched_data,information, paper_format="ACL/M"):
-#     # root = ET.Element('bibliography')
-#     entry_elem = ET.SubElement(root, 'entry', {'label': label})
-#     if paper_format == 'ACL/M':
-#         print(Matched_data['1'])
-#         information['author'] = list()
-#         if len(Matched_data['1']):
-#             for tup in Matched_data['1']:
-#                 if tup[0] == '':
-#                     information['author'].append(tup[1])
-#                     author_elem = ET.SubElement(entry_elem, f'author{len(information["author"])}')
-#                     author_elem.text = tup[1]
-#                 else:
-#                     information['author'].append(tup[0])
-#                     author_elem = ET.SubElement(entry_elem, f'author{len(information["author"])}')
-#                     author_elem.text = tup[0]
-
-
-#         if len(Matched_data['2']):
-#             information['year'] = Matched_data['2'][0]
-#             year_elem = ET.SubElement(entry_elem, 'year')
-#             year_elem.text = information['year']
-
-        
-#         elif len(Matched_data['10']):
-#             information['year'] = Matched_data['10'][0]
-#             year_elem = ET.SubElement(entry_elem, 'year')
-#             year_elem.text = information['year']
-
-
-#         if len(Matched_data['3']):
-#             information['ID'] = Matched_data['3'][0]
-#             id_elem = ET.SubElement(entry_elem, 'id')
-#             id_elem.text = information['ID']
-
-
-#         if len(Matched_data['4']):
-#             if len(Matched_data['4'][0]):
-#                 information['title'] = Matched_data['4'][0]
-#                 title_elem = ET.SubElement(entry_elem, 'title')
-#                 title_elem.text = information['title']
-#             else:
-#                 information['title'] = Matched_data['4']
-#                 title_elem = ET.SubElement(entry_elem, 'title')
-#                 title_elem.text = information['title']
-
-#         if len(Matched_data['5']):
-#             information['book'] = Matched_data['5'][0]
-#             book_elem = ET.SubElement(entry_elem, 'book')
-#             book_elem.text = information['book']
-
-        
-#         if len(Matched_data['6']):
-#             information['publisher'] = Matched_data['6'][0]
-#             publisher_elem = ET.SubElement(entry_elem, 'publisher')
-#             publisher_elem.text = information['publisher']
-
-
-#         else:
-#             if len(Matched_data['9']):
-#                 if Matched_data['9'][0][0] == '':
-#                     information['publisher'] = information.get('publisher', '') +  f"Journal: {Matched_data['9'][0][1]}"
-#                     publisher_elem = ET.SubElement(entry_elem, 'publisher')
-#                     publisher_elem.text = information['publisher']
-
-#                 else:
-#                     information['publisher'] = information.get('publisher', '') +  f"Journal: {Matched_data['9'][0][0]}"
-#                     publisher_elem = ET.SubElement(entry_elem, 'publisher')
-#                     publisher_elem.text = information['publisher']
-
-
-#         if len(Matched_data['11']):
-#             information['volume'] = Matched_data['11'][0]
-#             volume_elem = ET.SubElement(entry_elem, 'volume')
-#             volume_elem.text = information['volume']
-
-        
-#         if len(Matched_data['12']):
-#             information['Pages'] = Matched_data['12'][0]
-#             pages_elem = ET.SubElement(entry_elem, 'pages')
-#             pages_elem.text = information['Pages']
-
-
-#         elif len(Matched_data['7']):
-#             information['Pages'] = Matched_data['7'][0]
-#             pages_elem = ET.SubElement(entry_elem, 'pages')
-#             pages_elem.text = information['Pages']
-        
-
-#         # tree = ET.ElementTree(root)
-#         # ET.indent(tree, space="\t", level=0)
-#         # tree.write('ACL_bbl.xml', encoding='utf-8', xml_declaration=True)
-#         #tree.write(f'{paper_name}_bbl.xml', encoding='utf-8', xml_declaration=True)
-
-#     return information
-
-
 def init_dict():
 
     information = {
@@ -129,9 +17,11 @@ def init_dict():
         'author': list()
     }
     return information
+root = ET.Element("bibliography")
 
 def get_information(Matched_data,information, paper_format="ACL/M"):
-    
+    # root = ET.Element('bibliography')
+    entry_elem = ET.SubElement(root, 'entry', {'label': label})
     if paper_format == 'ACL/M':
         print(Matched_data['1'])
         information['author'] = list()
@@ -139,47 +29,157 @@ def get_information(Matched_data,information, paper_format="ACL/M"):
             for tup in Matched_data['1']:
                 if tup[0] == '':
                     information['author'].append(tup[1])
+                    author_elem = ET.SubElement(entry_elem, f'author{len(information["author"])}')
+                    author_elem.text = tup[1]
                 else:
                     information['author'].append(tup[0])
+                    author_elem = ET.SubElement(entry_elem, f'author{len(information["author"])}')
+                    author_elem.text = tup[0]
+
 
         if len(Matched_data['2']):
             information['year'] = Matched_data['2'][0]
+            year_elem = ET.SubElement(entry_elem, 'year')
+            year_elem.text = information['year']
+
         
         elif len(Matched_data['10']):
             information['year'] = Matched_data['10'][0]
+            year_elem = ET.SubElement(entry_elem, 'year')
+            year_elem.text = information['year']
+
 
         if len(Matched_data['3']):
             information['ID'] = Matched_data['3'][0]
+            id_elem = ET.SubElement(entry_elem, 'id')
+            id_elem.text = information['ID']
+
 
         if len(Matched_data['4']):
             if len(Matched_data['4'][0]):
                 information['title'] = Matched_data['4'][0]
+                title_elem = ET.SubElement(entry_elem, 'title')
+                title_elem.text = information['title']
             else:
                 information['title'] = Matched_data['4']
+                title_elem = ET.SubElement(entry_elem, 'title')
+                title_elem.text = information['title']
 
         if len(Matched_data['5']):
             information['book'] = Matched_data['5'][0]
+            book_elem = ET.SubElement(entry_elem, 'book')
+            book_elem.text = information['book']
+
         
         if len(Matched_data['6']):
             information['publisher'] = Matched_data['6'][0]
+            publisher_elem = ET.SubElement(entry_elem, 'publisher')
+            publisher_elem.text = information['publisher']
+
 
         else:
             if len(Matched_data['9']):
                 if Matched_data['9'][0][0] == '':
                     information['publisher'] = information.get('publisher', '') +  f"Journal: {Matched_data['9'][0][1]}"
+                    publisher_elem = ET.SubElement(entry_elem, 'publisher')
+                    publisher_elem.text = information['publisher']
+
                 else:
                     information['publisher'] = information.get('publisher', '') +  f"Journal: {Matched_data['9'][0][0]}"
+                    publisher_elem = ET.SubElement(entry_elem, 'publisher')
+                    publisher_elem.text = information['publisher']
+
 
         if len(Matched_data['11']):
             information['volume'] = Matched_data['11'][0]
+            volume_elem = ET.SubElement(entry_elem, 'volume')
+            volume_elem.text = information['volume']
+
         
         if len(Matched_data['12']):
             information['Pages'] = Matched_data['12'][0]
+            pages_elem = ET.SubElement(entry_elem, 'pages')
+            pages_elem.text = information['Pages']
+
 
         elif len(Matched_data['7']):
             information['Pages'] = Matched_data['7'][0]
+            pages_elem = ET.SubElement(entry_elem, 'pages')
+            pages_elem.text = information['Pages']
+        
+
+        tree = ET.ElementTree(root)
+        ET.indent(tree, space="\t", level=0)
+        # tree.write('ACL_bbl.xml', encoding='utf-8', xml_declaration=True)
+        tree.write(f'{paper_name}_bbl.xml', encoding='utf-8', xml_declaration=True)
 
     return information
+
+
+# def init_dict():
+
+#     information = {
+#         'title': '',
+#         'book': '',
+#         'publisher': '',
+#         'Pages': '',
+#         'year': '',
+#         'ID': '',
+#         'volume': '',
+#         'author': list()
+#     }
+#     return information
+
+# def get_information(Matched_data,information, paper_format="ACL/M"):
+    
+#     if paper_format == 'ACL/M':
+#         print(Matched_data['1'])
+#         information['author'] = list()
+#         if len(Matched_data['1']):
+#             for tup in Matched_data['1']:
+#                 if tup[0] == '':
+#                     information['author'].append(tup[1])
+#                 else:
+#                     information['author'].append(tup[0])
+
+#         if len(Matched_data['2']):
+#             information['year'] = Matched_data['2'][0]
+        
+#         elif len(Matched_data['10']):
+#             information['year'] = Matched_data['10'][0]
+
+#         if len(Matched_data['3']):
+#             information['ID'] = Matched_data['3'][0]
+
+#         if len(Matched_data['4']):
+#             if len(Matched_data['4'][0]):
+#                 information['title'] = Matched_data['4'][0]
+#             else:
+#                 information['title'] = Matched_data['4']
+
+#         if len(Matched_data['5']):
+#             information['book'] = Matched_data['5'][0]
+        
+#         if len(Matched_data['6']):
+#             information['publisher'] = Matched_data['6'][0]
+
+#         else:
+#             if len(Matched_data['9']):
+#                 if Matched_data['9'][0][0] == '':
+#                     information['publisher'] = information.get('publisher', '') +  f"Journal: {Matched_data['9'][0][1]}"
+#                 else:
+#                     information['publisher'] = information.get('publisher', '') +  f"Journal: {Matched_data['9'][0][0]}"
+
+#         if len(Matched_data['11']):
+#             information['volume'] = Matched_data['11'][0]
+        
+#         if len(Matched_data['12']):
+#             information['Pages'] = Matched_data['12'][0]
+
+#         elif len(Matched_data['7']):
+#             information['Pages'] = Matched_data['7'][0]
+
+#     return information
 
 
 
